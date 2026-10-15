@@ -1381,7 +1381,7 @@ function viewInicio(){
       '<div class="note">Banco de estos temas: '+n+' frases.</div></div>';
   });
   view.innerHTML=
-   '<div class="card"><h2 style="margin-top:0">Método de estudio</h2><p>Desarrollado por <b>Jailer Ramiro Chapid Romero</b>, estudiante de Ingeniería Eléctrica de la Universidad Nacional de Colombia, Sede Manizales (elaborado con apoyo de IA).</p><p class="note">Los animales caminan por la pantalla; puedes apagarlos con el botón "Mascotas".</p></div>'+
+   '<div class="card"><h2 style="margin-top:0">Método de estudio</h2><p>Desarrollado por <b>Daniel Santiago Escruceria Rosero</b>, estudiante de Ingeniería Eléctrica de la Universidad Nacional de Colombia, Sede Manizales (elaborado con apoyo de IA).</p><p class="note">Los animales caminan por la pantalla; puedes apagarlos con el botón "Mascotas".</p></div>'+
    '<div class="card"><h2 style="margin-top:0">Tu avance</h2>'+
    '<p>'+all.known+' de '+all.total+' frases dominadas. Por repasar: '+Object.keys(state.fails).length+'.</p>'+gh+
    '<p class="note">El avance y los días marcados se guardan solo en este navegador.</p></div>'+
@@ -1610,7 +1610,7 @@ render();
 
 // ---------- sello del desarrollador (no seleccionable, se restaura si se borra) ----------
 (function(){
-  var NAME='Jailer Ramiro Chapid Romero';
+  var NAME='Daniel Santiago Escruceria Rosero';
   var host=document.createElement('div');
   host.setAttribute('aria-hidden','true');
   host.style.cssText='position:fixed;left:0;top:0;right:0;bottom:0;pointer-events:none;z-index:2147483000;display:block;visibility:visible;opacity:1;';
@@ -1642,8 +1642,8 @@ render();
        '<text font-family="Georgia,serif" font-size="10" letter-spacing="1.5" font-weight="bold" fill="var(--acc,#1f5fa8)">'+
          '<textPath href="#ring" startOffset="0">M\u00c9TODO DE ESTUDIO \u00b7 SUBESTACIONES EL\u00c9CTRICAS \u00b7 2026 \u00b7 </textPath></text>'+
        '<text x="100" y="78" text-anchor="middle" font-family="Georgia,serif" font-size="9" letter-spacing="1" fill="var(--acc,#1f5fa8)">DESARROLLADO POR</text>'+
-       '<text x="100" y="102" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="var(--acc,#1f5fa8)">Jailer R.</text>'+
-       '<text x="100" y="124" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="var(--acc,#1f5fa8)">Chapid R.</text>'+
+       '<text x="100" y="102" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="var(--acc,#1f5fa8)">Daniel S.</text>'+
+       '<text x="100" y="124" text-anchor="middle" font-family="Georgia,serif" font-size="19" font-weight="bold" fill="var(--acc,#1f5fa8)">Escruceria R.</text>'+
        '<text x="100" y="142" text-anchor="middle" font-size="12" fill="var(--acc,#1f5fa8)">\u2605 \u26a1 \u2605</text>'+
      '</svg>'+
      '<div class="credit">M\u00e9todo de estudio desarrollado por <b>'+NAME+'</b> \u00b7 elaborado con apoyo de IA (Claude)</div>';
@@ -1666,3 +1666,4 @@ render();
   setInterval(restore,1500);
 })();
 </script></body></html>
+
